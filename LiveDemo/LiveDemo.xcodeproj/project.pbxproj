@@ -97,7 +97,6 @@
 			children = (
 				0CE4141B2174FD4E00521760 /* Classes */,
 				0CE413EC2174F86200521760 /* AppDelegate.swift */,
-				0CE413F02174F86200521760 /* Main.storyboard */,
 				0CE413F32174F86300521760 /* Assets.xcassets */,
 				0CE413F52174F86300521760 /* LaunchScreen.storyboard */,
 				0CE413F82174F86300521760 /* Info.plist */,
@@ -126,12 +125,12 @@
 		0CE4141B2174FD4E00521760 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0CE414212174FD4E00521760 /* Main */,
 				0CE4141C2174FD4E00521760 /* Home */,
 				0CE4141D2174FD4E00521760 /* Tools */,
 				0CE4141E2174FD4E00521760 /* Follow */,
 				0CE4141F2174FD4E00521760 /* Profile */,
 				0CE414202174FD4E00521760 /* Live */,
-				0CE414212174FD4E00521760 /* Main */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -174,6 +173,7 @@
 		0CE414212174FD4E00521760 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				0CE413F02174F86200521760 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -488,7 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U4K4Q99MK;
 				INFOPLIST_FILE = LiveDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = " ";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,7 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U4K4Q99MK;
 				INFOPLIST_FILE = LiveDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = " ";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
